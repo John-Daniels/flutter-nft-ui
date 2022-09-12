@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, //tabOptions.length,
+      length: tabs.length,
       child: Scaffold(
         extendBody: true,
         backgroundColor: Colors.grey[300],
